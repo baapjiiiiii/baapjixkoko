@@ -924,7 +924,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f" 🔥❤️\n 🔥 Bᴀᴀᴘ Jɪɪ 🔥`{ms}` ")
+        await event.edit(f" 🔥 Bᴀᴀᴘ Jɪɪ 🔥`{ms}` ")
 
 
 
@@ -1001,7 +1001,15 @@ async def restart(e):
 
         
         
-        
+ALIVE_PIC = "https://telegra.ph/file/46d0a66fe976ba4ce2a4f.jpg"
+
+import os
+
+baapjixkoko = os.environ.get("ALIVE_PIC",None)
+
+if not baapjixkoko:
+
+ baapjixkoko ="https://telegra.ph/file/46d0a66fe976ba4ce2a4f.jpg"
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -1024,7 +1032,7 @@ async def restart(e):
 @khu.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 async def alive(e):
     if e.sender_id in SMEX_USERS:
-        text = "https://telegra.ph/file/46d0a66fe976ba4ce2a4f.jpg) \n 𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️\n\n 🔥🔥🔥🥵 \n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [BAAP JII CLAN 🔥](https://t.me/Baapjiiiiiiiiii)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️](https://t.me/legit_adder_01)\n ┗━━━━━━━━━━━━━━━━━━━\n  kangers ki maa ka bhosda phle se h 😂😂 😆 kr lo kang tera baap\n\n #𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️\n "
+        text = " 𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️\n\n 🔥🔥🔥🥵 \n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [BAAP JII CLAN 🔥]\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️]\n ┗━━━━━━━━━━━━━━━━━━━\n  kangers ki maa ka bhosda phle se h 😂😂 😆 kr lo kang tera baap\n\n #𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️\n "
         await e.reply(text, parse_mode=None, link_preview=None )
  
 
