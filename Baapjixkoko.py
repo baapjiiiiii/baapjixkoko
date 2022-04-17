@@ -1024,7 +1024,7 @@ async def restart(e):
 @khu.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 async def alive(e):
     if e.sender_id in SMEX_USERS:
-        text = " [𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️](https://telegra.ph/file/46d0a66fe976ba4ce2a4f.jpg) \n\n\n 🔥🔥🔥🥵 \n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [BAAP JII CLAN 🔥](t.me/Baapjiiiiiiiiii)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️](t.me/legit_adder_01)\n ┗━━━━━━━━━━━━━━━━━━━\n  kangers ki maa ka bhosda phle se h 😂😂 😆 kr lo kang tera baap #𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️\n "
+        text = "https://telegra.ph/file/46d0a66fe976ba4ce2a4f.jpg) \n 𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️\n\n 🔥🔥🔥🥵 \n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [BAAP JII CLAN 🔥](https://t.me/Baapjiiiiiiiiii)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️](https://t.me/legit_adder_01)\n ┗━━━━━━━━━━━━━━━━━━━\n  kangers ki maa ka bhosda phle se h 😂😂 😆 kr lo kang tera baap\n\n #𝐁𝐚𝐚𝐩𝐣𝐢 🔥 𝐱 𝐤𝐨𝐤𝐨 ❤️\n "
         await e.reply(text, parse_mode=None, link_preview=None )
  
 
